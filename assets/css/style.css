@@ -1,0 +1,30 @@
+
+body {
+	background-image:url('../images/checkers.jpg');
+}
+
+.container {
+	width:70%;
+	margin:auto;
+	background-color:gray;
+	text-align:center;
+	border-radius:10px;
+	border:5px solid yellow;
+	line-height:125%;
+}
+
+#car-view {
+
+};
+
+#add-car{
+	color:green;
+};
+
+#car-form {
+	font-size:40px;
+
+}
+#car-input{
+	border-color: yellow;
+}
