@@ -27,9 +27,9 @@
 		   	console.log(rated);
 		   	
 		   	// creating an element to have the rating displayed on the page
-		   	var pOneElem = $("<p>").text("Rating: " + rated);
+		   	var pOneElem = $("<span>").text("Rating: " + rated);
 		   //appending to P tag
-		   	carDiv.append(pOneElem);
+		   	
 		   	console.log(carDiv);
 
 		   	//pulling the gif from the URL or result
@@ -45,6 +45,8 @@
 		   	imgElem.attr("src", stillGif);
 		   	imgElem.attr("data-still", stillGif);
 		   	imgElem.attr("data-state", "still");
+
+		   	carDiv.append(pOneElem);
 		   	//appending the image 
 		   	carDiv.append(imgElem);
 

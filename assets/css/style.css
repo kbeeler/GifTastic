@@ -15,12 +15,14 @@ body {
 
 #car-view {
 
-};
+}
 
-#add-car{
-	color:green;
-};
+#add-car {
+	margin: 20px;
+    background-color: green;
+    width:30%;
 
+}
 #car-form {
 	font-size:40px;
 
@@ -28,3 +30,12 @@ body {
 #car-input{
 	border-color: yellow;
 }
+
+.car-btn {
+	margin:10px;
+	border:3px solid red;
+	border-radius: 50px;
+	
+}
+
+
